@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyStarWarsWiki</string>
+    <string name="OK">OK</string>
+    <string name="Retry">Retry</string>
+    <string name="Error">Error</string>
+    <string name="search_bar_hint">Type a name</string>
+    <string name="use_the_search_bar_to_look_for_your_favorite_character">Use the Search bar to look for your favorite character</string>
+    <string name="number_of_films">Present in %1$s film%2$s</string>
+    <string name="no_results">Your search did not get any results. Try typing something else</string>
+    <string name="go_back">go back</string>
+    <string name="birth_year">Birth year</string>
+    <string name="height">Height</string>
+    <string name="height_cm_in">%1$scm / %2$sin</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="demographic_information">Demographic Information</string>
+    <string name="planet">Planet</string>
+    <string name="population">Population</string>
+    <string name="species">Species</string>
+    <string name="language">Language</string>
+    <string name="read_more"><u>Read More</u></string>
+    <string name="films_participation">Films Participation</string>
+    <string name="hint_empty_search">Don\'t forget to write something on the search bar!</string>
+    <string name="no_favorite_results">Click <u>here</u> to go to the search view and start saving some of your favorite characters</string>
+    <string name="your_favorites">Your Favorites</string>
+</resources>

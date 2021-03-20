@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_no_connectivity_message">There is a problem with your connection, please reconnect and try again</string>
+    <string name="error_unexpected_message">Unexpected Error, try again in a few moments</string>
+    <string name="error_server_message">The Server had an internal error, try again in a few moments</string>
+    <string name="error_client_message">There was an issue with what you requested, please try again</string>
+</resources>
