@@ -1,9 +1,6 @@
 package com.shadows.mystarwarswiki.dispatcher
 
-import com.shadows.mystarwarswiki.dummydata.luke
-import com.shadows.mystarwarswiki.dummydata.no_results
-import com.shadows.mystarwarswiki.dummydata.planet
-import com.shadows.mystarwarswiki.dummydata.species
+import com.shadows.mystarwarswiki.dummydata.*
 import okhttp3.mockwebserver.Dispatcher
 import okhttp3.mockwebserver.MockResponse
 import okhttp3.mockwebserver.RecordedRequest
@@ -33,6 +30,11 @@ class DummyDataDispatcher: Dispatcher() {
                     .setResponseCode(200)
                     .setBody(species)
             }
+            SEARCH_FOR_FILMS ->{
+                MockResponse()
+                    .setResponseCode(200)
+                    .setBody(film)
+            }
 
             else -> throw IllegalArgumentException("We could not find the path: ${request.path}")
         }
@@ -43,5 +45,6 @@ class DummyDataDispatcher: Dispatcher() {
         const val SEARCH_FOR_EMPTY = "mateo"
         const val SEARCH_FOR_PLANET = "/planets/1/"
         const val SEARCH_FOR_SPECIES = "/species/1/"
+        const val SEARCH_FOR_FILMS = "/films/1/"
     }
 }

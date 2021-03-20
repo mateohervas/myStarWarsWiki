@@ -1,8 +1,6 @@
 package com.shadows.core.mappers
 
 
-import android.util.Log
-import com.google.gson.Gson
 import com.shadows.core.models.remote.RemoteCharacter
 import org.junit.Test
 
@@ -10,7 +8,6 @@ import org.junit.Assert.*
 import org.junit.Rule
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
-import org.mockito.Mockito
 import org.mockito.Mockito.mock
 import org.mockito.junit.MockitoJUnit
 import org.mockito.junit.MockitoRule
