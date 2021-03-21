@@ -19,7 +19,7 @@ This app is fully developed in Kotlin and uses the amazing power of Extension fu
 
 ### Architecture
 This app was developed using a Clean - MVVM approach. This means that the app is divided in two main modules: App which has all the Android Dependencies and Core which has all the operations that do not depend on Android.
-This secures that, the app will be more testable and scalable as each module has its own operations and libraries and is tested separately. Check this [Clean Architecture Tutorial](https://www.raywenderlich.com/3595916-clean-architecture-tutorial-for-android-getting-started) for further details.
+This secures that, the app will be more testable and scalable as each module has its own operations and libraries and is tested separately. 
 
 ### Dependency Injection
 This projects uses the [Dagger Hilt](https://dagger.dev/hilt/) framework for dependency injection. This decision was chosen because Dagger Hilt is simpler to implement than plain Dagger and it builds the dependency graph on build time (contrary to Koin); this will reassure the developers that the graph is correctly created before the app even runs.
