@@ -9,6 +9,7 @@ import com.shadows.core.models.local.StarWarsCharacter
 import com.shadows.mystarwarswiki.R
 import com.shadows.mystarwarswiki.databinding.ItemCharacterBinding
 
+//this adapter is in charge of displaying a list of characters
 class SearchResultsAdapter(private val characterClickListener: CharacterClickListener): ListAdapter<StarWarsCharacter, SearchResultsAdapter.ViewHolder>(
     CharactersDiffer
 ) {

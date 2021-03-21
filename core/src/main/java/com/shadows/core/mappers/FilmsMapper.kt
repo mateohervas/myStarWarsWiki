@@ -4,6 +4,8 @@ import com.shadows.core.models.local.StarWarsFilm
 import com.shadows.core.models.remote.RemoteFilm
 import com.shadows.core.utils.NOT_AVAILABLE
 
+//this mapper is in charge of mapping to StarWars Film
+
 fun RemoteFilm.toStarWarsFilm(): StarWarsFilm{
     return StarWarsFilm(title = title?: NOT_AVAILABLE,
         openingCrawl = openingCrawl?:NOT_AVAILABLE,

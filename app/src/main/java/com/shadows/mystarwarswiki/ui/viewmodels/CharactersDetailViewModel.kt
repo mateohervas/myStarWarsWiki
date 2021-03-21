@@ -13,6 +13,8 @@ import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
+//view model in charge of emiting the necessary information of a characters detail
+
 @HiltViewModel
 class CharactersDetailViewModel @Inject constructor(
     private val demographicsRepository: CharacterDemographicsRepository,

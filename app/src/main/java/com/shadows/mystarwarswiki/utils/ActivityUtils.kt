@@ -1,9 +1,7 @@
 package com.shadows.mystarwarswiki.utils
 
-import android.view.LayoutInflater
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
-import androidx.viewbinding.ViewBinding
 
 
 

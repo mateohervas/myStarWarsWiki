@@ -14,6 +14,7 @@ import kotlinx.coroutines.flow.onStart
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
+//this view model is in charge of consulting and emitting favorite characters
 @HiltViewModel
 class FavoriteCharactersViewModel @Inject constructor(private val repository: FavoriteCharactersRepository): ViewModel()  {
 

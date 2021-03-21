@@ -14,7 +14,7 @@ import com.shadows.mystarwarswiki.ui.adapters.films.FilmClickLister
 import com.shadows.mystarwarswiki.utils.*
 import com.shadows.mystarwarswiki.ui.viewmodels.CharactersDetailViewModel
 import dagger.hilt.android.AndroidEntryPoint
-
+//Activity in charge of displaying the details of a Character
 @AndroidEntryPoint
 class CharacterDetailActivity : AppCompatActivity(), FilmClickLister {
 

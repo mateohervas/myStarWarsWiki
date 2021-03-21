@@ -9,6 +9,7 @@ private const val HTTP_CODE_400_END = 499
 private const val HTTP_CODE_500_START = 500
 private const val HTTP_CODE_500_END = 599
 
+//this file is a handler of different network calls so the message is personalized to the user and not something that the user could not understand
 fun Throwable.getPersonalizedMessage(): NetworkThrowableHandler{
     return when(this){
         is HttpException -> {

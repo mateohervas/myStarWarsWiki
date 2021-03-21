@@ -12,6 +12,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 
+//this dagger hilt module creates the Retrofit singleton that will be used to perform the API calls
 @Module
 @InstallIn(SingletonComponent::class)
 object ServiceModule {

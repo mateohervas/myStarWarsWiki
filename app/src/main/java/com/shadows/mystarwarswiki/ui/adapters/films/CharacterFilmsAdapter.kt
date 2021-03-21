@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.shadows.core.models.local.StarWarsFilm
 import com.shadows.mystarwarswiki.R
 import com.shadows.mystarwarswiki.databinding.ItemFilmBinding
-
+//this adapter is in charge of the films list items in the character detail screen
 class CharacterFilmsAdapter(private val filmClickLister: FilmClickLister):  ListAdapter<StarWarsFilm, CharacterFilmsAdapter.ViewHolder>(
     FilmsDiffer
 ) {

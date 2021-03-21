@@ -11,7 +11,7 @@ import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.onStart
 import kotlinx.coroutines.launch
 import javax.inject.Inject
-
+//this view model is in charge of consulting and emitting the search results of a query
 @HiltViewModel
 class CharacterSearchViewModel @Inject constructor(private val characterSearchRepository: CharacterSearchRepository): ViewModel() {
 

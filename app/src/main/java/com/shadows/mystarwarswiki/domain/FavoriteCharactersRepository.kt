@@ -9,6 +9,7 @@ import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
 import javax.inject.Inject
 
+//this repo is in charge of the favorite-related character operations. In this case, it implements all the DAO operations
 class FavoriteCharactersRepository @Inject constructor(private val characterDao: CharacterDao) {
 
     fun saveCharacter(starWarsCharacter: StarWarsCharacter) = flow {

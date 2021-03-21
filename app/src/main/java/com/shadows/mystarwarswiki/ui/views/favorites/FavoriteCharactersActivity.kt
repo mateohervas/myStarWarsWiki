@@ -21,6 +21,7 @@ import com.shadows.mystarwarswiki.utils.showDialog
 import com.shadows.mystarwarswiki.ui.viewmodels.FavoriteCharactersViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
+//this activity is in charge of displaying the favorite characters saved by the user
 @AndroidEntryPoint
 class FavoriteCharactersActivity : AppCompatActivity(), CharacterClickListener {
 

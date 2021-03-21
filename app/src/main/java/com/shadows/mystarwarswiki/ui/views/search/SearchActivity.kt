@@ -19,6 +19,7 @@ import com.shadows.mystarwarswiki.utils.*
 import com.shadows.mystarwarswiki.ui.viewmodels.CharacterSearchViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
+//this activity is in charge of getting the searching query and displaying the results
 @AndroidEntryPoint
 class SearchActivity : AppCompatActivity(), CharacterClickListener {
 

@@ -3,6 +3,7 @@ package com.shadows.mystarwarswiki.data.dao
 import androidx.room.*
 import com.shadows.mystarwarswiki.data.models.CharacterEntity
 
+//Dao Interface were the operations of the Room Database are defined
 @Dao
 interface CharacterDao {
 

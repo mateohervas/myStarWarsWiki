@@ -9,6 +9,7 @@ import androidx.lifecycle.Observer
 import androidx.viewbinding.ViewBinding
 import kotlin.properties.ReadOnlyProperty
 import kotlin.reflect.KProperty
+//this class lets the viewbinding creation in fragments to be a single line
 
 class FragmentViewBindingDelegate<T : ViewBinding>(
     val fragment: Fragment,

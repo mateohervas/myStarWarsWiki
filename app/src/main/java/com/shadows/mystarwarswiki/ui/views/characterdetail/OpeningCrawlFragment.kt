@@ -8,6 +8,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.shadows.mystarwarswiki.databinding.FragmentOpeningCrawlBinding
 import com.shadows.mystarwarswiki.ui.views.binding.viewBinding
 
+//this BottomSheetDialogFragment displays the opening crawl and resembles the beloved opening crawls of the star wars movies
 class OpeningCrawlFragment(private val title: String, private val openingCrawl: String) :
     BottomSheetDialogFragment() {
 
